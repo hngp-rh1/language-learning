@@ -15,7 +15,7 @@ let currentSource = "fsi"; // default source
    Load a unit by ID (called from main.js)
 ------------------------------------------------------------ */
 function loadUnit(id) {
-    fetch("units.json")
+    fetch("/data/units.json")
         .then(res => res.json())
         .then(data => {
             currentUnit = data[id];
