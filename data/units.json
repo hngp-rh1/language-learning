@@ -4,7 +4,7 @@
     "english": "First Contacts",
 
     "fsi": {
-      "dialogue": "<h3>DLI Dialogue</h3><p>（示例内容）</p><p>此处将显示 DLI 对话文本。</p>",
+      "dialogue": "<h3>FSI Dialogue</h3><p>（示例内容）</p><p>此处将显示 DLI 对话文本。</p>",
       "audio": "audio/fsi/unit1.mp3"
     },
 
@@ -22,17 +22,17 @@
   "2": {
     "title": "你从哪里来？",
     "english": "Where Are You From?",
-    "fsi": { "dialogue": "", "audio": "" },
-    "dli": { "dialogue": "", "audio": "" },
-    "pimsleur": { "dialogue": "", "audio": "" }
+    "fsi": { "dialogue": "2", "audio": "" },
+    "dli": { "dialogue": "2.1", "audio": "" },
+    "pimsleur": { "dialogue": "21,", "audio": "" }
   },
 
   "3": {
     "title": "你好吗？",
     "english": "How Are You?",
-    "fsi": { "dialogue": "", "audio": "" },
-    "dli": { "dialogue": "", "audio": "" },
-    "pimsleur": { "dialogue": "", "audio": "" }
+    "fsi": { "dialogue": "213", "audio": "" },
+    "dli": { "dialogue": "32", "audio": "" },
+    "pimsleur": { "dialogue": "421", "audio": "" }
   },
 
   "4": {
