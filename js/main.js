@@ -19,33 +19,32 @@ function toggleMenu() {
    Load external HTML into main content area
    Supports optional parameter (e.g., unit ID)
 ------------------------------------------------------------ */
-function loadPage(page, param = null) {
-    const main = document.getElementById("mainContent");
-
+function loadPage(page, unitId = null) {
     fetch(`pages/${page}.html`)
-        .then(res => {
-            if (!res.ok) throw new Error("Page not found");
-            return res.text();
-        })
+        .then(res => res.text())
         .then(html => {
-            main.innerHTML = html;
+            const container = document.getElementById("mainContent");
+            container.innerHTML = html;
 
-            // If this is a unit page, call lesson.js logic
-            if (page === "unit" && param !== null) {
-                if (typeof loadUnit === "function") {
-                    loadUnit(param);
-                } else {
-                    console.error("lesson.js not loaded or loadUnit() missing");
-                }
+            if (page === "unit") {
+                const script = document.createElement("script");
+                script.id = "lesson-script";
+                script.src = "js/lesson.js";
+
+                script.onload = () => {
+                    // Wait for DOM to finish rendering
+                    requestAnimationFrame(() => {
+                        const id = unitId || "1";
+                        loadUnit(id);
+                    });
+                };
+
+                document.body.appendChild(script);
             }
         })
-        .catch(() => {
-            main.innerHTML = `
-                <h2>Page Not Found</h2>
-                <p>The page <strong>${page}.html</strong> does not exist.</p>
-            `;
-        });
+        .catch(err => console.error("Error loading page:", err));
 }
+
 
 /* ------------------------------------------------------------
    Attach click handlers after DOM loads
@@ -120,4 +119,3 @@ document.addEventListener("click", (e) => {
         });
     }
 });
-
