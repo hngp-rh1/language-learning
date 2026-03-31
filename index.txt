@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Language Learning Platform</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="logo.png" alt="App Logo" class="logo" />
+        <div class="tagline">Learn faster with audio‑first, reflex‑based language training</div>
+
+        <!-- Hamburger icon (mobile only) -->
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </header>
+
+    <!-- DESKTOP NAVIGATION -->
+    <nav>
+        <ul class="menu">
+            <li><a href="#" data-page="main">Home</a></li>
+
+            <li class="has-submenu">
+                <a>Audio Lessons</a>
+                <ul class="submenu">
+                    <li><a href="#" data-page="all-lessons">All Lessons</a></li>
+                    <li><a href="#" data-page="shadowing">Shadowing Mode</a></li>
+                    <li><a href="#" data-page="ci">Comprehensible Input</a></li>
+                    <li><a href="#" data-page="dialogues">Dialogues Lessons</a></li>
+                </ul>
+            </li>
+
+            <li class="has-submenu">
+                <a>Drills</a>
+                <ul class="submenu">
+                    <li><a href="#" data-page="active-recall">Active Recall</a></li>
+                    <li><a href="#" data-page="reflex">Reflex Training</a></li>
+                    <li><a href="#" data-page="substitution">Substitution Drills</a></li>
+                    <li><a href="#" data-page="transformation">Transformation Drills</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#" data-page="srs">SRS Review</a></li>
+            <li><a href="#" data-page="progress">My Progress</a></li>
+            <li><a href="#" data-page="resources">Resources</a></li>
+        </ul>
+    </nav>
+
+    <!-- MOBILE NAV DRAWER -->
+    <div id="mobileMenu">
+        <div class="closeMenu" onclick="toggleMenu()">✕</div>
+
+        <h3>Navigation</h3>
+
+        <ul class="mobile-nav">
+
+            <li><a href="#" data-page="main">Home</a></li>
+
+            <div class="mobile-section-title">Audio Lessons</div>
+            <li><a href="#" data-page="all-lessons">All Lessons</a></li>
+            <li><a href="#" data-page="shadowing">Shadowing Mode</a></li>
+            <li><a href="#" data-page="ci">Comprehensible Input</a></li>
+            <li><a href="#" data-page="fsi">FSI Lessons</a></li>
+            <li><a href="#" data-page="dli">DLI Lessons</a></li>
+            <li><a href="#" data-page="pimsleur">Pimsleur Lessons</a></li>
+
+            <div class="mobile-section-title">Drills</div>
+            <li><a href="#" data-page="active-recall">Active Recall</a></li>
+            <li><a href="#" data-page="reflex">Reflex Training</a></li>
+            <li><a href="#" data-page="substitution">Substitution Drills</a></li>
+            <li><a href="#" data-page="transformation">Transformation Drills</a></li>
+            <li><a href="#" data-page="custom">Custom Drills</a></li>
+
+            <div class="mobile-section-title">Other</div>
+            <li><a href="#" data-page="srs">SRS Review</a></li>
+            <li><a href="#" data-page="progress">My Progress</a></li>
+            <li><a href="#" data-page="resources">Resources</a></li>
+
+        </ul>
+
+    </div>
+
+    <!-- MAIN CONTENT AREA -->
+    <div class="container">
+        <div class="main-column" id="mainContent">
+            <!-- Loaded dynamically from /pages/*.html -->
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2026 Language Learning Platform — All rights reserved.<br>
+        This site stores data locally in your browser only.<br>
+        <a href="#">Disclaimer</a> | <a href="#">Feedback</a> | <a href="#">Privacy</a>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

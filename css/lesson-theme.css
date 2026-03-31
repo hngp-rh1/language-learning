@@ -1,0 +1,250 @@
+/* FSI GRID */
+.fsi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.fsi-unit {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.fsi-unit:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+
+.fsi-unit h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #0077cc;
+}
+
+.fsi-unit p {
+    margin: 0.4rem 0 0.6rem;
+}
+
+.fsi-unit .eng {
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.fsi-unit .progress {
+    margin-top: 0.6rem;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.phase-header {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    user-select: none;
+}
+
+.phase-header .toggle-icon {
+    transition: transform 0.2s ease;
+    font-size: 1rem;
+}
+
+.phase-header.open .toggle-icon {
+    transform: rotate(90deg);
+}
+
+.phase-content {
+    margin-top: 0.8rem;
+}
+
+.phase-controls {
+    margin: 1rem 0;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.phase-controls button {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.phase-controls button:hover {
+    background: #eaeaea;
+}
+
+
+/* ============================================================
+   UNIT PAGE LAYOUT
+============================================================ */
+
+.lesson-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.back-link {
+    color: #0077cc;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    display: inline-block;
+    font-size: 0.95rem;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+#unit-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.2rem;
+}
+
+.unit-subtitle {
+    color: #666;
+    margin-bottom: 1.2rem;
+}
+
+/* ============================================================
+   SOURCE SELECTOR BUTTONS (FSI / DLI / Pimsleur)
+============================================================ */
+
+.source-buttons {
+    display: flex;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+.source-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.source-btn:hover {
+    background: #eaeaea;
+}
+
+.active-source {
+    background: #0077cc;
+    color: white;
+    border-color: #0077cc;
+}
+
+/* ============================================================
+   DIALOGUE BOX
+============================================================ */
+
+.dialogue-box {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 6rem; /* space for sticky audio bar */
+}
+
+.dialogue-box p {
+    margin: 0.6rem 0;
+}
+
+.dialogue-box .eng {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* ============================================================
+   STICKY AUDIO PLAYER
+============================================================ */
+
+.sticky-player {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background: #ffffff;
+    border-top: 1px solid #ddd;
+
+    padding: 0.6rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    z-index: 999;
+}
+
+#audio-element {
+    width: 60%;
+}
+
+.audio-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+#audio-speed {
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#loop-toggle {
+    padding: 0.3rem 0.6rem;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#loop-toggle.loop-active {
+    background: #0077cc;
+    color: white;
+    border-color: #0077cc;
+}
+
+/* ============================================================
+   MOBILE RESPONSIVE
+============================================================ */
+
+@media (max-width: 600px) {
+    #audio-element {
+        width: 100%;
+    }
+
+    .audio-controls {
+        flex-wrap: wrap;
+        gap: 0.4rem;
+    }
+
+    .source-buttons {
+        flex-wrap: wrap;
+    }
+}
+
+/* Fade transition for dialogue switching */
+.dialogue-box {
+    opacity: 1;
+    transition: opacity 0.35s ease;
+}
+
+.dialogue-box.fade-out {
+    opacity: 0;
+}
+
+.dialogue-box.fade-in {
+    opacity: 1;
+}

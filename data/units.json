@@ -1,0 +1,205 @@
+{
+  "1": {
+    "title": "初次见面",
+    "english": "First Contacts",
+
+    "fsi": {
+      "dialogue": "<h3>FSI Dialogue</h3>\n\n<p><strong>玛丽亚：</strong> 先生，早上好。<br>\n<span class=\\\"eng\\\">Good morning, sir.</span></p>\n\n<p><strong>卡洛斯：</strong> 女士，早上好。<br>\n<span class=\\\"eng\\\">Good morning, ma’am.</span></p>\n\n<p><strong>玛丽亚：</strong> 我叫玛丽亚·加西亚。您贵姓？<br>\n<span class=\\\"eng\\\">My name is María García. What is your name?</span></p>\n\n<p><strong>卡洛斯：</strong> 我叫卡洛斯·罗德里格斯。很高兴认识您。<br>\n<span class=\\\"eng\\\">My name is Carlos Rodríguez. Pleased to meet you.</span></p>\n\n<p><strong>玛丽亚：</strong> 很高兴认识您。您是哪国人？<br>\n<span class=\\\"eng\\\">Pleased to meet you. Where are you from?</span></p>\n\n<p><strong>卡洛斯：</strong> 我来自墨西哥。您呢？<br>\n<span class=\\\"eng\\\">I'm from Mexico. And you?</span></p>\n\n<p><strong>玛丽亚：</strong> 我来自西班牙，马德里。<br>\n<span class=\\\"eng\\\">I'm from Spain, from Madrid.</span></p>\n\n<p><strong>卡洛斯：</strong> 啊，真有意思！您是老师吗？<br>\n<span class=\\\"eng\\\">Ah, how interesting! Are you a professor?</span></p>\n\n<p><strong>玛丽亚：</strong> 是的，我是西班牙语老师。您呢？<br>\n<span class=\\\"eng\\\">Yes, I'm a Spanish teacher. And you?</span></p>\n\n<p><strong>卡洛斯：</strong> 我是医生。<br>\n<span class=\\\"eng\\\">I'm a doctor.</span></p>\n\n<p><strong>玛丽亚：</strong> 很高兴认识您。再见。<br>\n<span class=\\\"eng\\\">Delighted to meet you. See you later.</span></p>\n\n<p><strong>卡洛斯：</strong> 我也是。再见。<br>\n<span class=\\\"eng\\\">Likewise. See you later.</span></p>",
+      "audio": "audio/fsi/unit1.mp3"
+    },
+
+    "dli": {
+      "dialogue": "<h3>DLI Dialogue</h3><p>（示例内容）</p><p>此处将显示 DLI 对话文本。</p>",
+      "audio": "audio/dli/unit1.mp3"
+    },
+
+    "pimsleur": {
+      "dialogue": "<h3>Pimsleur Dialogue</h3><p>（示例内容）</p><p>此处将显示 Pimsleur 对话文本。</p>",
+      "audio": "audio/pimsleur/unit1.mp3"
+    }
+  },
+
+  "2": {
+    "title": "你从哪里来？",
+    "english": "Where Are You From?",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "3": {
+    "title": "你好吗？",
+    "english": "How Are You?",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "4": {
+    "title": "我的家庭",
+    "english": "My Family",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "5": {
+    "title": "复习一",
+    "english": "Review 1",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "6": {
+    "title": "现在几点？",
+    "english": "What Time Is It?",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "7": {
+    "title": "在餐厅",
+    "english": "At the Restaurant",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "8": {
+    "title": "去购物",
+    "english": "Shopping",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "9": {
+    "title": "房子",
+    "english": "The House",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "10": {
+    "title": "复习二",
+    "english": "Review 2",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "11": {
+    "title": "计划和约会",
+    "english": "Plans & Appointments",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "12": {
+    "title": "天气",
+    "english": "The Weather",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "13": {
+    "title": "问路",
+    "english": "Asking for Directions",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "14": {
+    "title": "交通工具",
+    "english": "Transportation",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "15": {
+    "title": "日常活动",
+    "english": "Daily Activities",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "16": {
+    "title": "购物二",
+    "english": "Shopping II",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "17": {
+    "title": "健康",
+    "english": "Health",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "18": {
+    "title": "工作",
+    "english": "Work",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "19": {
+    "title": "学校",
+    "english": "School",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "20": {
+    "title": "旅行",
+    "english": "Travel",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "21": {
+    "title": "酒店",
+    "english": "Hotel",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "22": {
+    "title": "餐饮",
+    "english": "Food & Dining",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "23": {
+    "title": "爱好",
+    "english": "Hobbies",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  },
+
+  "24": {
+    "title": "节日",
+    "english": "Holidays & Festivals",
+    "fsi": { "dialogue": "", "audio": "" },
+    "dli": { "dialogue": "", "audio": "" },
+    "pimsleur": { "dialogue": "", "audio": "" }
+  }
+}

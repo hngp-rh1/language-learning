@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Shared lesson styling -->
+    <link rel="stylesheet" href="lesson-theme.css">
+
+    <title>Unit</title>
+</head>
+
+<body>
+
+<div class="lesson-container">
+
+    <!-- Back Button -->
+    <div class="back-link" onclick="loadPage('dialogues')">← Back to Units</div>
+
+    <!-- Unit Title (filled by JS) -->
+    <h1 id="unit-title"></h1>
+    <p id="unit-subtitle" class="unit-subtitle"></p>
+
+    <!-- Source Selector Buttons -->
+    <div class="source-buttons">
+        <button class="source-btn" data-source="fsi">FSI</button>
+        <button class="source-btn" data-source="dli">DLI</button>
+        <button class="source-btn" data-source="pimsleur">Pimsleur</button>
+    </div>
+
+    <!-- Dialogue Content -->
+    <div id="dialogue-content" class="dialogue-box">
+        <!-- Filled dynamically by lesson.js -->
+    </div>
+
+</div>
+
+<!-- Sticky Audio Player -->
+<div id="audio-player" class="sticky-player">
+    <audio id="audio-element" controls></audio>
+
+    <div class="audio-controls">
+        <label>Speed:</label>
+        <select id="audio-speed">
+            <option value="0.75">0.75x</option>
+            <option value="1" selected>1.0x</option>
+            <option value="1.25">1.25x</option>
+            <option value="1.5">1.5x</option>
+        </select>
+
+        <button id="loop-toggle">Loop ⟳</button>
+    </div>
+</div>
+
+<!-- Lesson Logic -->
+<script src="lesson.js"></script>
+
+</body>
+</html>
