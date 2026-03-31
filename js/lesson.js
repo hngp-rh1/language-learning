@@ -15,7 +15,7 @@ let currentSource = "fsi"; // default source
    Load a unit by ID (called from main.js)
 ------------------------------------------------------------ */
 function loadUnit(id) {
-   fetch("data/units.json")
+  fetch("data/units.json")
         .then(res => res.json())
         .then(data => {
             currentUnit = data[id];
@@ -117,10 +117,12 @@ function updateAudioPlayer(source) {
 
     if (audioData && audioData.audio) {
         audioElement.src = audioData.audio;
+        audioElement.autoplay = false; // 🔥 ensure no autoplay
     } else {
         audioElement.removeAttribute("src");
     }
 }
+
 
 /* ------------------------------------------------------------
    Audio speed + loop controls
