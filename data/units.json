@@ -4,7 +4,7 @@
     "english": "First Contacts",
 
     "fsi": {
-      "dialogue": "<h3>FSI Dialogue</h3>\n\n<p><strong>玛丽亚：</strong> 先生，早上好。<br>\n<span class=\\\"eng\\\">Good morning, sir.</span></p>\n\n<p><strong>卡洛斯：</strong> 女士，早上好。<br>\n<span class=\\\"eng\\\">Good morning, ma’am.</span></p>\n\n<p><strong>玛丽亚：</strong> 我叫玛丽亚·加西亚。您贵姓？<br>\n<span class=\\\"eng\\\">My name is María García. What is your name?</span></p>\n\n<p><strong>卡洛斯：</strong> 我叫卡洛斯·罗德里格斯。很高兴认识您。<br>\n<span class=\\\"eng\\\">My name is Carlos Rodríguez. Pleased to meet you.</span></p>\n\n<p><strong>玛丽亚：</strong> 很高兴认识您。您是哪国人？<br>\n<span class=\\\"eng\\\">Pleased to meet you. Where are you from?</span></p>\n\n<p><strong>卡洛斯：</strong> 我来自墨西哥。您呢？<br>\n<span class=\\\"eng\\\">I'm from Mexico. And you?</span></p>\n\n<p><strong>玛丽亚：</strong> 我来自西班牙，马德里。<br>\n<span class=\\\"eng\\\">I'm from Spain, from Madrid.</span></p>\n\n<p><strong>卡洛斯：</strong> 啊，真有意思！您是老师吗？<br>\n<span class=\\\"eng\\\">Ah, how interesting! Are you a professor?</span></p>\n\n<p><strong>玛丽亚：</strong> 是的，我是西班牙语老师。您呢？<br>\n<span class=\\\"eng\\\">Yes, I'm a Spanish teacher. And you?</span></p>\n\n<p><strong>卡洛斯：</strong> 我是医生。<br>\n<span class=\\\"eng\\\">I'm a doctor.</span></p>\n\n<p><strong>玛丽亚：</strong> 很高兴认识您。再见。<br>\n<span class=\\\"eng\\\">Delighted to meet you. See you later.</span></p>\n\n<p><strong>卡洛斯：</strong> 我也是。再见。<br>\n<span class=\\\"eng\\\">Likewise. See you later.</span></p>",
+      "dialogue": "<h3>DLI Dialogue</h3><p>（示例内容）</p><p>此处将显示 DLI 对话文本。</p>",
       "audio": "audio/fsi/unit1.mp3"
     },
 
